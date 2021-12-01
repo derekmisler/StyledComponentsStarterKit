@@ -1,6 +1,6 @@
-import React, { ReactElement } from "react";
+import React, { ReactElement } from 'react';
 
-import Heading from "@atoms/Heading";
+import Heading from '@atoms/Heading';
 
 export const App = (): ReactElement => {
   return (

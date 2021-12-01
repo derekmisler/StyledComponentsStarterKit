@@ -1,6 +1,6 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
-import { ThemeProps } from "@styles/types";
+import { ThemeProps } from '@styles/types';
 
 export default createGlobalStyle<ThemeProps>`
   /* Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property */

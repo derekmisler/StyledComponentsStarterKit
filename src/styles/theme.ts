@@ -1,17 +1,17 @@
-import { Theme } from "@styles/types";
+import { Theme } from '@styles/types';
 
 const COLORS = {
-  gray: "#4C566A",
-  black: "#2E3440",
-  white: "#f4f1ec",
-  red: "#BF616A",
-  redDarker: "#9b4b56",
-  blue: "#81A1C1",
-  blueDarker: "#5E81AC"
+  gray: '#4C566A',
+  black: '#2E3440',
+  white: '#f4f1ec',
+  red: '#BF616A',
+  redDarker: '#9b4b56',
+  blue: '#81A1C1',
+  blueDarker: '#5E81AC',
 };
 const TYPOGRAPHY = {
   baseFontFamily: '"Roboto", sans-serif',
-  headingFontFamily: '"Roboto Slab", serif;'
+  headingFontFamily: '"Roboto Slab", serif;',
 };
 
 export const theme: { [themeName: string]: Theme } = {
@@ -23,7 +23,7 @@ export const theme: { [themeName: string]: Theme } = {
     link: COLORS.redDarker,
     linkHover: COLORS.red,
     disabled: COLORS.gray,
-    background: COLORS.white
+    background: COLORS.white,
   },
   dark: {
     ...TYPOGRAPHY,
@@ -33,6 +33,6 @@ export const theme: { [themeName: string]: Theme } = {
     link: COLORS.blue,
     linkHover: COLORS.blueDarker,
     disabled: COLORS.gray,
-    background: COLORS.black
-  }
+    background: COLORS.black,
+  },
 };
