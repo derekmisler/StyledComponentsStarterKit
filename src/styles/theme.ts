@@ -12,6 +12,9 @@ const COLORS = {
 const TYPOGRAPHY = {
   baseFontFamily: '"Roboto", sans-serif',
   headingFontFamily: '"Roboto Slab", serif;',
+  baseFontWeight: 400,
+  boldFontWeight: 700,
+  headingFontWeight: 900,
 };
 
 export const theme: { [themeName: string]: Theme } = {
