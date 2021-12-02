@@ -1,2 +1,2 @@
-# StyledComponentsStarterKit
-Created with CodeSandbox
+# Styled Components Starter Kit
+Created for CodeSandbox
